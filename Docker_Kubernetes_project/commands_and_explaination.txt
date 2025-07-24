@@ -1,0 +1,6 @@
+1. Do Ssh - ssh -i akshatnv.pm ubuntu@${IP_ADD}
+2. to run docker without sudo, add current user to docker usergroup, 
+	
+	1. check the current user with - whoami
+	2. then run - sudo usermod -aG docker $USER && newgrp docker   - this is will the current user to docker group and also refreshes the current group.
+3. 
